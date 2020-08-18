@@ -1,14 +1,14 @@
 # Assignment - Pro - 1 (Is it a Prime Number?)
 
-num = int(input("Please enter a number: "))
+isPrime = int(input("Please enter a number: "))
 
-if num > 1:
-    for i in range(2,num):
-       if (num % i) == 0:
-           print(num,"is not a prime number")
+if isPrime > 1:
+    for i in range(2,isPrime):
+       if (isPrime % i) == 0:
+           print(isPrime,"is not a prime number")
            break
-   else:
-       print(num,"is a prime number")
-       
+    else:
+        print(isPrime,"is a prime number")
+    
 else:
-   print(num,"is not a prime number")
+   print(isPrime,"is not a prime number")
