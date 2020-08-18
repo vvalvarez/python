@@ -4,7 +4,7 @@ rate = .07
 present_value = 1000
 periods = 7
 
-future_value = present_value * (1 + rate) ** periods  # future value
+future_value = present_value * (1 + rate)**periods  # future value
 future_value_str = str(round(future_value, 2))
 answer=f"At the end of the {periods}th day my original investment of ${present_value} at {rate} rate will have a value of ${future_value_str}."
 print(answer) 
